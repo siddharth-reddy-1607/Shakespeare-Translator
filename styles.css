@@ -1,0 +1,97 @@
+/* Font import */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap');
+
+:root
+{
+    --primary-color: #5D92BA;
+}
+
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    margin: 0;
+    background-image:url(https://png.pngtree.com/thumb_back/fh260/back_our/20200702/ourmid/pngtree-simple-ancient-style-shading-border-poster-background-design-image_348022.jpg);
+    font-family: 'Libre Baskerville', serif;
+}
+
+header
+{
+    text-align: center;
+    background-color:var(--primary-color);
+    padding: 1rem;
+    margin-bottom: 3rem;
+    border-bottom-left-radius:1rem ;
+    border-bottom-right-radius: 1rem;
+    font-weight: bold;
+}
+
+header img
+{
+    /* margin: auto; */
+    margin-top:5px;
+    max-width: 150px;
+    max-height:75px;
+}
+main
+{
+    max-width: 600px;
+    margin:auto;
+    padding: 1rem;
+}
+
+textarea
+{
+    min-height: 100px;
+    max-height: 150px;
+    width:100%;
+}
+
+/* Translate Button */
+button
+{
+    display: block;
+    margin: auto;
+    margin-top: 2.5rem;
+    margin-bottom: 2rem;
+    border: 1px solid black;
+    padding: 0.5rem;
+}
+
+#Appear-Here
+{
+    text-align: center;
+    padding: 0.5rem;
+    font-weight: bold;
+}
+
+/* Output Div */
+#output
+{
+    border: 1px solid black;
+    min-height: 100px;
+    max-height:150px;
+    width:100%;
+    overflow: auto;
+}
+
+/* Foooter */
+footer
+{
+    position: fixed;
+    left:0;
+    bottom:0;
+    background-color:var(--primary-color);
+    width:100%;
+    text-align: center;
+    padding: 1rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius:1rem ;
+}
+
+footer #about
+{
+    font-weight: bold;
+}
